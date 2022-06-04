@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 function Header() {
   return (
-    <div className="md:container">     
+    <div>     
       <Nav />
       <Category />
-      <div className="py-2 items-center px-2 md:px-0">
+      <div className="py-4 items-center px-2 md:px-0">
         <Image src="/img/top-image.jpeg" width={970} height={200} />
       </div>
     </div>

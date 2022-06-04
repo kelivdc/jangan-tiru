@@ -5,13 +5,17 @@ module.exports = {
     './src/**/*.{html,js}',
     './node_modules/tw-elements/dist/js/**/*.js'
   ],
-  theme: {
+  theme: {   
     container: {
       center: true,
-    },
+      screens: {
+        md: '1140px',
+      }
+    },    
     extend: {},
   },
   plugins: [
-    require('tw-elements/dist/plugin')
+    require('tw-elements/dist/plugin'),
+    require('@tailwindcss/line-clamp'),
   ],
 }

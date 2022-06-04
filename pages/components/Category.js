@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 function Category() {
   return (
-    <div className='relative mt-2'>
-        <ul className='bg-blue-50 flex space-x-6 md:space-x-8 p-2 text-gray-600 md:px-4'>
+    <div className='relative'>
+        <ul className='bg-[#032a63] flex space-x-6 md:space-x-8 p-2 text-gray-100 md:px-4 text-sm uppercase font-bold py-4'>
             <li>Home</li>
             <li><a className="flex items-center whitespace-nowrap" data-bs-toggle="collapse" href="#category" role="button" aria-expanded="false" aria-controls="category">
                 <span>Kategori</span>
@@ -14,7 +14,7 @@ function Category() {
                 </a>
             </li>
         </ul>    
-        <ul className='shadow collapse grid grid-cols-2 gap-4 px-2 py-4 absolute w-full z-50 bg-white' id="category">
+        <ul className='shadow-lg collapse grid grid-cols-2 gap-4 px-2 py-4 absolute w-full z-50 bg-white' id="category">
             <li className='hover:bg-blue-50'><Link href="/"><a className='block py-1'>Peristiwa</a></Link></li>          
             <li className='hover:bg-blue-50'><Link href="/"><a className='block py-1'>Peristiwa</a></Link></li>          
             <li className='hover:bg-blue-50'><Link href="/"><a className='block py-1'>Peristiwa</a></Link></li>          
