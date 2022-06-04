@@ -1,6 +1,5 @@
 import React from "react";
 import BurgerIcon from "./BurgerIcon";
-import "tw-elements";
 
 function Nav() {       
   return (
