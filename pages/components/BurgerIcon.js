@@ -44,7 +44,7 @@ function BurgerIcon() {
         mr-1
         pl-2
       " href="#">
-   <Image src="/img/logo.svg" width={192} height={20} />
+   <Image src="/img/logo.svg" width={192} height={20} alt="Logo" />
   </a>
   <ul className="navbar-nav grid md:flex text-sm mt-4">   
     <li className="nav-item p-2">
