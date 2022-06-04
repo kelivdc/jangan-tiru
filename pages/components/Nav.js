@@ -5,14 +5,11 @@ import Search from "./Search";
 function Nav() {       
   return (
     <>
-    <nav className="bg-gray-50 flex items-center justify-between p-4">
+    <div className="bg-gray-50">
       <div>
         <BurgerIcon />
-      </div>
-      <div>
-        <Search />
-      </div>
-    </nav>
+      </div>     
+    </div>
     </>
   );
 }
