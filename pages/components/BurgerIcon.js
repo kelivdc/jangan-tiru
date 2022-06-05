@@ -57,7 +57,7 @@ function BurgerIcon() {
     </li>    
   </ul>
   </div>
-  <div className="flex items-center relative mt-2">
+  <div className="flex justify-end relative mt-2">
     <Search /> 
   </div>
   </div>
