@@ -23,7 +23,6 @@ function BurgerIcon() {
       border-0
       hover:shadow-none hover:no-underline
       py-2
-      px-2.5
       bg-transparent
       focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
     " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
