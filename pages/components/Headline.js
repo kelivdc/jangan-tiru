@@ -4,10 +4,12 @@ import Image from "next/image";
 function Headline() {
   return (
     <div className="md:w-3/5 relative rounded-md">
+        
         <div className="relative overflow-hidden bg-no-repeat min-h-max max-h-[450px] rounded-md">
             <Image src="/img/zebra.jpg" layout='responsive' width={6124} height={4816} alt="Gambar Zebra" />
             <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-50"></div>
         </div>
+        <div className="absolute top-0 left-0 p-4 text-white text-xl md:text-2xl font-semibold tracking-wide ">Pilihan</div>
         <div className="absolute bottom-0 left-0 p-4">
             <span className="bg-red-700 text-white rounded px-2 py-1 text-xs font-semibold tracking-wider lowercase">
                 Wisata
