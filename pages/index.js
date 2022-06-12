@@ -25,6 +25,7 @@ export default function Home() {
                 <Image src="https://img.okezone.com/content/2022/06/11/57/2609818/6-langkah-mudah-login-facebook-lewat-hp-untuk-pemula-SihSXNhUEe.jpg" 
                   layout="responsive" className="rounded-md"
                   width={450} height={235}
+                  alt="Facebook"
                 />
                 <div className="absolute bottom-0 left-0 bg-red-700 text-white m-4 p-1 rounded text-xs tracking-wider">Wisata</div>
               </div>
