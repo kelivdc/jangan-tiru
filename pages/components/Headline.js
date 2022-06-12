@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
+import zebra from "/public/img/zebra.jpg";
 
 function Headline() {
   return (
     <div className="md:w-3/5 relative rounded-md">        
-        <div className="relative overflow-hidden bg-no-repeat min-h-max max-h-[450px] rounded-md">
+        <div className="relative overflow-hidden bg-no-repeat min-h-max max-h-[450px] rounded-md w-full">
             <Link href="/read/testing">
-                <a><Image src="/img/zebra.jpg" layout='responsive' width={6124} height={4816} alt="Gambar Zebra" />
+                <a ><Image src={zebra} alt="Gambar Zebra"/>
                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-50"></div>
                 </a>
             </Link>
@@ -18,7 +19,7 @@ function Headline() {
                 Wisata
             </span>
             <Link href="/read/testing">
-            <a><h1 className="hover:text-blue-500 mt-4 text-white font-bold text-xl md:text-2xl line-clamp-2">PUBG Mobile 1,5: Ignition Sudah Bisa Diunduh Oleh Pengguna Android dan iOS!</h1></a>
+                <a><h1 className="hover:text-blue-500 mt-4 text-white font-bold text-xl md:text-2xl line-clamp-2">PUBG Mobile 1,5: Ignition Sudah Bisa Diunduh Oleh Pengguna Android dan iOS!</h1></a>
             </Link>
             <div className="text-white text-sm flex space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

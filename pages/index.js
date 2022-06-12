@@ -21,12 +21,13 @@ export default function Home() {
           <div className="md:w-[70%]">            
             {[...Array(4)].map((x, i) =>
             <div className="md:flex p-4 space-x-4" key={i}>
-              <div className="md:w-[40%] relative">                
-                <Image src="https://img.okezone.com/content/2022/06/11/57/2609818/6-langkah-mudah-login-facebook-lewat-hp-untuk-pemula-SihSXNhUEe.jpg" 
-                  layout="responsive" className="rounded-md"
-                  width={450} height={235}
-                  alt="Facebook"
-                />
+              <div className="md:w-[40%] relative">   
+                <div className="w-full h-[200px] md:h-[180px] relative">             
+                  <Image src="https://img.okezone.com/content/2022/06/11/57/2609818/6-langkah-mudah-login-facebook-lewat-hp-untuk-pemula-SihSXNhUEe.jpg" 
+                    layout="fill" className="rounded-md"                  
+                    alt="Facebook"
+                  />
+                </div>
                 <div className="absolute bottom-0 left-0 bg-red-700 text-white m-4 p-1 rounded text-xs tracking-wider">Wisata</div>
               </div>
               <div className="md:w-[60%] text-gray-700">
