@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "./Footer";
 
 export default function Home({children}) {
   return (
@@ -13,6 +14,7 @@ export default function Home({children}) {
         </main>
         </div>
       </div>
+      <Footer />      
     </>   
   )
 }

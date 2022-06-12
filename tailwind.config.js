@@ -9,7 +9,7 @@ module.exports = {
     container: {
       center: true,
       screens: {
-        md: '1140px',
+        md: '1040px',
       }
     },    
     extend: {},

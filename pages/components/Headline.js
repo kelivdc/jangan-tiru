@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
+
 function Headline() {
   return (
     <div className="md:w-3/5 relative rounded-md">
