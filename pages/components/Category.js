@@ -5,7 +5,7 @@ function Category() {
   return (
     <div className='relative'>
         <ul className='bg-[#032a63] flex space-x-6 md:space-x-8 p-2 text-gray-100 md:px-4 text-sm uppercase font-bold py-4'>
-            <li>Home</li>
+            <li><Link href="/"><a>Home</a></Link></li>
             <li><a className="flex items-center whitespace-nowrap" data-bs-toggle="collapse" href="#category" role="button" aria-expanded="false" aria-controls="category">
                 <span>Kategori</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

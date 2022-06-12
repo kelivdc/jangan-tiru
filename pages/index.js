@@ -3,17 +3,23 @@ import Headline from "./components/Headline";
 import Frontend from "./components/Frontend";
 import Image from "next/image";
 import { ClockIcon } from "@heroicons/react/outline"
+import css from '../styles/Home.module.css'
+import Head from "next/head";
+import Menarik from "./components/Menarik";
 
 export default function Home() {
   return (
     <Frontend>
-      <div className="md:flex md:space-x-8 space-y-4 md:space-y-0">
+      <Head>
+        <title>WorldTime</title>
+      </Head>
+      <div className={css.topnav}>
         <Headline />
         <Terbaru />
       </div>      
       <div className="md:flex my-4 bg-white rounded-md">
           <div className="md:w-[70%]">            
-            {[...Array(3)].map((x, i) =>
+            {[...Array(4)].map((x, i) =>
             <div className="md:flex p-4 space-x-4" key={i}>
               <div className="md:w-[40%] relative">                
                 <Image src="https://img.okezone.com/content/2022/06/11/57/2609818/6-langkah-mudah-login-facebook-lewat-hp-untuk-pemula-SihSXNhUEe.jpg" 
@@ -31,8 +37,8 @@ export default function Home() {
             </div>
             )}
           </div>
-        <div className="w-[30%] p-4 bg-gray-200">
-          <h2 className="font-bold text-2xl text-gray-700">Menarik</h2>
+        <div className="md:w-[30%] m-2 md:m-0 bg-gray-200">
+          <Menarik />
         </div>
       </div>
     </Frontend>      

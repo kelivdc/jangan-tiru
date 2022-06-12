@@ -3,11 +3,14 @@ import Link from "next/link"
 import Search from "./Search";
 import Image from "next/image";
 
+
 function BurgerIcon() {
   return (
     <>
       <div className="block md:hidden bg-[#032a63] mx-auto pt-4 text-center">
+        <Link href="/"><a>
         <Image src="/img/logo.svg" width={192} height={20} alt="Logo" />
+        </a></Link>
       </div>
       <nav className="
         relative
@@ -37,7 +40,7 @@ function BurgerIcon() {
         </svg>
       </button>
       <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-        
+        <Link href="/">
         <a className="
               flex
               items-center
@@ -52,7 +55,7 @@ function BurgerIcon() {
               md:block
             " href="#">
         <Image src="/img/logo.svg" width={192} height={20} alt="Logo" />
-        </a>
+        </a></Link>
         <ul className="navbar-nav grid md:flex text-sm mt-4">   
           <li className="nav-item p-2">
             <a className="nav-link font-semibold text-white hover:text-blue-400 focus:text-blue-400 p-0" href="#">About</a>

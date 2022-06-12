@@ -8,10 +8,8 @@ export default function Home({children}) {
         <Header />
       </div>
       <div className="bg-gray-100">
-        <div className="md:container px-3 md:px-0 py-4 py-8">
-        <main className="">
-            {children}   
-        </main>
+        <div className="md:container py-4 md:py-8">
+          {children}   
         </div>
       </div>
       <Footer />      
