@@ -2,7 +2,7 @@ import React from 'react'
 
 function Menarik() {
   return (
-    <div>
+    <div className='bg-gray-200 '>
         <h2 className="font-bold text-2xl text-primary p-4">Menarik</h2>
         <ul className="divide-y divide-gray-300 w-full">
         {[...Array(10)].map((x, i) =>

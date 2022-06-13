@@ -18,6 +18,7 @@ module.exports = {
       "mdbcdn.b-cdn.net",
       'images.pexels.com',
       'img.okezone.com',
+      'img.idxchannel.com'
     ],
   },
   env: {

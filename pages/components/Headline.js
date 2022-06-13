@@ -5,8 +5,8 @@ import zebra from "/public/img/zebra.jpg";
 
 function Headline() {
   return (
-    <div className="md:w-3/5 relative rounded-md">        
-        <div className="relative overflow-hidden bg-no-repeat min-h-max max-h-[450px] rounded-md w-full">
+    <div className="md:w-3/5 relative rounded-md px-2 md:px-0">        
+        <div className="relative overflow-hidden bg-no-repeat min-h-max md:max-h-[400px] rounded-md">
             <Link href="/read/testing">
                 <a ><Image src={zebra} alt="Gambar Zebra"/>
                 <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-50"></div>

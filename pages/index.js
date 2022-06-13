@@ -3,7 +3,6 @@ import Headline from "./components/Headline";
 import Frontend from "./components/Frontend";
 import Image from "next/image";
 import { ClockIcon } from "@heroicons/react/outline"
-import css from '../styles/Home.module.css'
 import Head from "next/head";
 import Menarik from "./components/Menarik";
 
@@ -13,7 +12,7 @@ export default function Home() {
       <Head>
         <title>WorldTime</title>
       </Head>
-      <div className={css.topnav}>
+      <div className="md:flex md:space-x-8 space-y-4 md:space-y-0">
         <Headline />
         <Terbaru />
       </div>      

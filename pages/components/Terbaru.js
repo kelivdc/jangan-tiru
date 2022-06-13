@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Terbaru() {
   return (
-    <div className="bg-black md:w-2/5 rounded-md px-6 py-4 text-white">
+    <div className="bg-black md:w-2/5 rounded-md px-6 py-4 text-white mx-2 md:mx-0">
         <h2 className="font-semibold text-xl tracking-wide">Info terbaru</h2>
         <div>
             <ul className='text-sm divide-y divide-blue-900'>
