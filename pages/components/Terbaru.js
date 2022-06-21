@@ -32,7 +32,7 @@ function Terbaru() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/img/xiaomi.jpg" width={200} height={200} />
+                        <Image src="/img/xiaomi.jpg" width={200} height={200} alt="Xiaomi" />
                     </div>
                 </li>                
                 <li className="flex justify-between space-x-8 py-2">
@@ -46,7 +46,7 @@ function Terbaru() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/img/xiaomi.jpg" width={200} height={200} />
+                        <Image src="/img/xiaomi.jpg" width={200} height={200} alt="Xiaomi" />
                     </div>
                 </li>                     
             </ul>
