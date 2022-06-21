@@ -13,6 +13,7 @@
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
+  poweredByHeader: false,
   images: {
     domains: [
       "mdbcdn.b-cdn.net",
@@ -23,5 +24,6 @@ module.exports = {
   },
   env: {
     API_SERVER: process.env.API_SERVER,
+    admin: '/admin'
   },
 };
