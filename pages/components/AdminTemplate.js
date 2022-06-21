@@ -1,14 +1,14 @@
 import React from 'react'
-import Leftnav from './Leftnav'
-import Topnav from './Topnav'
+import Leftnav from './admin/Leftnav'
+import Topnav from './admin/Topnav'
 import Head from 'next/head'
 
-function Layout() {
+export default function Template({children}) {
   return (
       <>
         <Head>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"></link>
             <style jsx global>{`
             html,
@@ -23,11 +23,10 @@ function Layout() {
                 </div>
                 <div className='w-5/6 bg-gray-100 h-screen'>
                     <Topnav />
-                </div>
+                    {children}
+                </div>                
             </div>
         </Head>
         </>
   )
 }
-
-export default Layout

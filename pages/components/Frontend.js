@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function Home({children}) {
   return (
-    <>       
+    <>     
       <div className="md:container">
         <Header />
       </div>

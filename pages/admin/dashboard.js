@@ -1,18 +1,20 @@
 import React from 'react'
-import Layout from '../components/admin/Layout'
+import Template from '../components/AdminTemplate'
 import Head  from 'next/head'
 
 function dashboard() {
   return (
-      <>
-    <Head>
+      <>   
+      <Head>
         <title>Dashboard</title>
-    </Head>
-    <Layout>       
-        Dashboard
-    </Layout>
-    </>
-  )
+      </Head>
+        <Template>     
+          <div className='p-4'>
+            <h1 className='text-gray-500 text-2xl'>Dashboard</h1>
+          </div>  
+        </Template>
+      </>
+    )
 }
 
 export default dashboard
