@@ -7,7 +7,8 @@ import {
   ChartBarIcon,
   ColorSwatchIcon,
   CogIcon,
-  CollectionIcon
+  CollectionIcon,
+  UsersIcon
 } from "@heroicons/react/solid"
 
 function Leftnav() {
@@ -22,7 +23,7 @@ function Leftnav() {
               </div>               
           </div>  
           <div className="pt-4 text-gray-400 uppercase text-sm">Content</div>
-          <div className="text-gray-200 antialiased text-sm py-4 border-b border-gray-400 grid grid-rows-1 gap-y-4">
+          <div className="text-gray-200 antialiased text-sm py-4 border-b border-gray-400 grid grid-rows-1 gap-y-8">
             <div className="flex">
                 <div className="pr-2"><CollectionIcon className="w-5 h-5"/></div>
                 <div>Carousel</div>
@@ -48,12 +49,17 @@ function Leftnav() {
               <div>Choices</div>
             </div>
           </div>       
-          <div className="text-gray-200 antialiased text-sm py-4 border-b border-gray-400">
+          <div className="text-gray-200 antialiased text-sm py-4 border-b border-gray-400 grid grid-rows-1 gap-y-6">
               <div className="flex">
                 <div className="pr-2"><CogIcon className="w-5 h-5"/></div>
                 <div>Settings</div>
-              </div>               
+              </div>
+              <div className="flex">
+                <div className="pr-2"><UsersIcon className="w-5 h-5"/></div>
+                <div>Users</div>
+              </div>                
           </div>   
+          <div className="mt-8 text-sm text-gray-300">Copyright &copy; 2022. Reserved</div>
       </div>
     </div>
   )

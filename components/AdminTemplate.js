@@ -12,7 +12,9 @@ export default function Template({children}) {
             </div>
             <div className='w-5/6 bg-gray-100 h-screen'>
                 <Topnav />
-                {children}
+                <div className='text-gray-500'>
+                  {children}
+                </div>
             </div>                
         </div>
     </>
