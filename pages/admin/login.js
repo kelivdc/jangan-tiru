@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Loginform from '../components/admin/Loginform'
+import Loginform from '/components/admin/Loginform'
 
 function login() {
   return (
