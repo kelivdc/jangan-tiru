@@ -1,10 +1,10 @@
-import Terbaru from "./components/Terbaru";
-import Headline from "./components/Headline";
-import Frontend from "./components/Frontend";
+import Terbaru from "/components/Terbaru";
+import Headline from "/components/Headline";
+import Frontend from "/components/Frontend";
 import Image from "next/image";
 import { ClockIcon } from "@heroicons/react/outline"
 import Head from "next/head";
-import Menarik from "./components/Menarik";
+import Menarik from "/components/Menarik";
 
 export default function Home() {
   return (

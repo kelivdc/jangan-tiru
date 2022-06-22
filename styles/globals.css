@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,8 +7,13 @@
 @layer base {
     .shadow {
         box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
-    }
+    }   
+    body {
+        font-family: Nunito;
+        font-size: 1rem;
+    }   
 }
+
 .text-primary {
     @apply text-[#032a63];
 }

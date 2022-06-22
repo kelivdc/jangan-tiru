@@ -1,11 +1,12 @@
 import { ClockIcon } from '@heroicons/react/outline';
 import Head from 'next/head';
 import React from 'react'
-import Frontend from "../components/Frontend";
-import Menarik from '../components/Menarik';
+import Frontend from '/components/Frontend';
+import Menarik from '/components/Menarik';
 import Image
  from 'next/image';
-import Trending from '../components/Trending';
+import Trending from '/components/Trending';
+
 function Slug() {
   return (
     <Frontend>
